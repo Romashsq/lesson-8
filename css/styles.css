@@ -4,14 +4,14 @@
   margin: 0 auto;
 }
 .main-float1 {
-  border: solid 2px grey;
+  border: solid 2px red;
   margin-bottom: 100px;
   height: 64px;
   max-width: 700px;
 }
 
 .main-float1-block1 {
-  background-color: grey;
+  background-color: rebeccapurple;
   width: 200px;
   height: 50px;
   float: left;
@@ -19,7 +19,7 @@
 }
 
 .main-float1-block2 {
-  background-color: grey;
+  background-color: salmon;
   width: 200px;
   height: 50px;
   float: right;
@@ -27,14 +27,14 @@
 }
 
 .main-float2 {
-  border: solid 2px grey;
+  border: solid 2px violet;
   margin-bottom: 100px;
   height: 65px;
   max-width: 1200px;
 }
 
 .main-float2-block1 {
-  background-color: grey;
+  background-color: hotpink;
   width: 200px;
   height: 50px;
   float: left;
@@ -49,19 +49,19 @@
 }
 
 .main-float2-block2 :first-child {
-  background-color: gray;
+  background-color: olive;
 }
 
 .main-float2-block2 :nth-child(2) {
-  background-color: grey;
+  background-color: blue;
 }
 
 .main-float2-block2 :last-child {
-  background-color: grey;
+  background-color: violet;
 }
 
 .main-float3 {
-  border: solid 2px grey;
+  border: solid 2px firebrick;
   margin-bottom: 100px;
   height: 65px;
   max-width: 1200px;
@@ -75,11 +75,11 @@
 }
 
 .main-float3-block1 :first-child {
-  background-color: grey;
+  background-color: red;
 }
 
 .main-float3-block1 :last-child {
-  background-color: grey;
+  background-color: maroon;
 }
 
 .main-float3-block2 * {
@@ -90,22 +90,22 @@
 }
 
 .main-float3-block2 :first-child {
-  background-color: grey;
+  background-color: royalblue;
 }
 
 .main-float3-block2 :last-child {
-  background-color: grey;
+  background-color: navajowhite;
 }
 
 .main-float4 {
-  border: solid 2px grey;
+  border: solid 2px gold;
   margin-bottom: 100px;
   height: 130px;
   max-width: 1200px;
 }
 
 .main-float4-block1 {
-  background-color: grey;
+  background-color: honeydewred;
   width: 200px;
   height: 110px;
   margin: 5px;
@@ -121,22 +121,22 @@
 }
 
 .main-float4-block2 :first-child {
-  background-color: grey;
+  background-color: red;
 }
 
 .main-float4-block2 :last-child {
-  background-color: grey;
+  background-color: pink;
 }
 
 .main-float5 {
-  border: solid 2px grey;
+  border: solid 2px pink;
   margin-bottom: 100px;
   height: 130px;
   max-width: 1200px;
 }
 
 .main-float5-block1 {
-  background-color: grey;
+  background-color: pink;
   width: 200px;
   height: 110px;
   margin: 5px;
@@ -153,9 +153,9 @@
 }
 
 .main-float5-block2 :first-child {
-  background-color: grey;
+  background-color: red;
 }
 
 .main-float5-block2 :last-child {
-  background-color: grey;
+  background-color: red;
 }
