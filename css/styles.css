@@ -1,0 +1,161 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main-float1 {
+  border: solid 2px grey;
+  margin-bottom: 100px;
+  height: 64px;
+  max-width: 700px;
+}
+
+.main-float1-block1 {
+  background-color: grey;
+  width: 200px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+}
+
+.main-float1-block2 {
+  background-color: grey;
+  width: 200px;
+  height: 50px;
+  float: right;
+  margin: 5px;
+}
+
+.main-float2 {
+  border: solid 2px grey;
+  margin-bottom: 100px;
+  height: 65px;
+  max-width: 1200px;
+}
+
+.main-float2-block1 {
+  background-color: grey;
+  width: 200px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+}
+
+.main-float2-block2 * {
+  width: 200px;
+  height: 50px;
+  float: right;
+  margin: 5px;
+}
+
+.main-float2-block2 :first-child {
+  background-color: gray;
+}
+
+.main-float2-block2 :nth-child(2) {
+  background-color: grey;
+}
+
+.main-float2-block2 :last-child {
+  background-color: grey;
+}
+
+.main-float3 {
+  border: solid 2px grey;
+  margin-bottom: 100px;
+  height: 65px;
+  max-width: 1200px;
+}
+
+.main-float3-block1 * {
+  width: 200px;
+  height: 50px;
+  float: right;
+  margin: 5px;
+}
+
+.main-float3-block1 :first-child {
+  background-color: grey;
+}
+
+.main-float3-block1 :last-child {
+  background-color: grey;
+}
+
+.main-float3-block2 * {
+  width: 200px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+}
+
+.main-float3-block2 :first-child {
+  background-color: grey;
+}
+
+.main-float3-block2 :last-child {
+  background-color: grey;
+}
+
+.main-float4 {
+  border: solid 2px grey;
+  margin-bottom: 100px;
+  height: 130px;
+  max-width: 1200px;
+}
+
+.main-float4-block1 {
+  background-color: grey;
+  width: 200px;
+  height: 110px;
+  margin: 5px;
+  float: left;
+  margin-left: 780px;
+}
+
+.main-float4-block2 * {
+  width: 200px;
+  height: 50px;
+  margin: 5px;
+  float: right;
+}
+
+.main-float4-block2 :first-child {
+  background-color: grey;
+}
+
+.main-float4-block2 :last-child {
+  background-color: grey;
+}
+
+.main-float5 {
+  border: solid 2px grey;
+  margin-bottom: 100px;
+  height: 130px;
+  max-width: 1200px;
+}
+
+.main-float5-block1 {
+  background-color: grey;
+  width: 200px;
+  height: 110px;
+  margin: 5px;
+  float: left;
+  margin-left: 400px;
+}
+
+.main-float5-block2 * {
+  width: 200px;
+  height: 50px;
+  margin: 5px;
+  float: right;
+  margin-right: 385px;
+}
+
+.main-float5-block2 :first-child {
+  background-color: grey;
+}
+
+.main-float5-block2 :last-child {
+  background-color: grey;
+}
